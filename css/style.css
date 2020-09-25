@@ -1,0 +1,246 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0 auto;
+}
+/* menu */
+
+.fundo-header{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/fundo-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+
+nav{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    width: 70vw;
+    background: #F8F8FF;
+    border-radius: 3px;
+    
+}
+
+nav .brand{
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+}
+
+nav .brand  a  {
+    text-decoration: none;
+    list-style: none;
+    border: 2px solid #000;
+    padding: 5px;
+    color: #000;
+}
+
+
+
+
+nav .menu {
+    display: flex;
+    justify-content: center;
+}
+
+nav .menu li{
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+
+
+nav .menu li a{
+    text-decoration: none;
+    list-style: none;
+    color: #BEBEBE;
+}
+
+
+
+nav .search{
+    display: flex;
+    justify-content: center;
+}
+
+nav .search li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav .search li a{
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+/* header board */
+
+.header-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.header-board h2{
+    color: #fff;
+    text-shadow: 3px 1px 0px rgba(150, 150, 150, 1);
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: 1rem;
+}
+.header-board p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* button  header */
+.group-button{
+    margin-top: 20px;
+}
+
+.see-more{
+    background: #0275db;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+}
+
+.purchase{
+    background: #fff;
+    color: #0275db;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+}   
+
+
+/* about header */
+
+.header-about{
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    height: 12vw;
+    margin: 60px auto;
+}
+
+.header-about .about{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header-about .square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0275db;
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.header-about .squareblack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+
+.header-about .circle{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 40px;
+    height: 45px;
+}
+
+.header-about .circle i{
+    text-align: center;
+    padding: 13px;
+    color: #0275db
+}
+
+
+.header-about h3{
+    margin-top: 15px;
+}
+.header-about p{
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+}
+
+/* recent works */
+
+main{
+    background-color: lightgrey;
+    height: 45vh;
+}
+
+main .recent-work{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+ 
+}
+
+main .recent-work p {
+    font-size: 10px;
+    margin-top: 20px;
+}
+main .recent-work i {
+    margin-top: 10px;
+    color: #0275db;
+}
+
+main .recent-images{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .recent-images img{
+    width: 100%;
+}
+
+main .recent-images img .bottom-right{
+        position: absolute;
+        top: 5;
+        left: 3;
+        width: 100%;
+        height: 100%;
+    
+    
+}
