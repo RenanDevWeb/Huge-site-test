@@ -284,6 +284,9 @@ main .recent-images img .bottom-right{
     width: 10vw;
     padding: 10px;
 }
+.card .card-body p{
+    padding: 10px;
+}
 
 .card .card-footer{
     display: flex;
@@ -304,16 +307,11 @@ main .recent-images img .bottom-right{
 }
 
 
-.card .frente{
-    
-    width: 50%;
-}
 
 .main-about{
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    height: 12vh;
     margin: 60px;
     
 }
@@ -334,6 +332,9 @@ main .recent-images img .bottom-right{
     background-color: lightgray
 }
 
+
+
+
 .progress-bar .fundo span{
     margin-right: 5px ;
 }
@@ -343,9 +344,181 @@ main .recent-images img .bottom-right{
     align-items: center;
     background-color:#0275db;
 }
-.progress-bar .frente i{
-    color: #fff;
-    padding: 5px;
 
+.frente-web-design{
+        height: 4vh;
+        width: 198px;
+        display: flex;
+        align-items: center;
+        background-color:#0275db;
+}
+
+.progress-bar .frente-web-design i{
+    color: #fff;
+    padding: 0  9px;
+}
+
+.frente-application{
+    height: 4vh;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    background-color:#0275db;
+}
+
+.progress-bar .frente-application i{
+color: #fff;
+padding: 0  9px;
+}
+
+
+.frente-development{
+    height: 4vh;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    background-color:#0275db;
+}
+
+.progress-bar .frente-development i{
+color: #fff;
+padding: 0  9px;
+}
+
+.frente-html{
+    height: 4vh;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    background-color:#0275db;
+}
+
+.progress-bar .frente-html i{
+color: #fff;
+padding: 0  9px;
+}
+
+
+.card-headerr{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px solid lightgray;
+}
+.box-left{
+    display: flex;
+}
+.box-left img{
+    width: 40px;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+.box-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+    font-size: 14px;
+}
+.box-information h4{
+    color: #0275db;
+}
+.box-rigth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.box-rigth .box-rigth-chrevon-left{
+    background-color: #fff;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.box-rigth .box-rigth-chrevon-left p {
+    color: gray;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.box-rigth .box-rigth-chrevon-rigth{
+    background-color:#0275db; ;
+}
+.box-rigth .box-rigth-chrevon-rigth{
+    background-color: #0274db;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.box-rigth .box-rigth-chrevon-rigth p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.card-body-text{
+    color: gray;
+    padding: 10px 10px;
+    text-align: justify;
+    font-style: 10px;
+}
+
+/* fundo-parte-celular */
+.article-cel{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 60vh;
+    background-color: #fff;
+    background-color: lightgray;
+}
+.article-cel .article-cel-left{
+    display: flex;
+    width: 40vw;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: initial;
+    padding: 0 30px;
+}
+.article-cel .article-cel-left h3{
+    margin-top: 30px;
+   margin-bottom: 30px; 
+   font-size: 26px;
+   font-weight: 500;
 
 }
+
+.article-cel .article-cel-left p{
+    margin-bottom: 30px; 
+    font-weight: 500;
+    color: gray;
+ }
+
+ .article-cel .article-cel-left ul{
+     list-style: none;
+     color: gray;
+     margin-bottom: 20px;
+ }
+ .article-cel .article-cel-left i{
+    color: #0275db;
+}
+
+ .article-cel .article-cel-left li{
+    padding: 5px;
+}
+.article-cel .article-cel-left button{
+    
+        background: #0275db;
+        color: #fff;
+        padding: 8px;
+        border: none;
+        border-radius: 2px;
+        width: 150px;
+    
+}
+
+
