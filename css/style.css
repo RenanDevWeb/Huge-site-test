@@ -472,8 +472,7 @@ padding: 0  9px;
     align-items: flex-start;
     justify-content: center;
     height: 60vh;
-    background-color: #fff;
-    background-color: lightgray;
+    background-color: #E6E6FA 
 }
 .article-cel .article-cel-left{
     display: flex;
@@ -518,7 +517,6 @@ padding: 0  9px;
         border: none;
         border-radius: 2px;
         width: 150px;
-    
 }
 
 
