@@ -245,7 +245,7 @@ main .recent-images img .bottom-right{
 
  /* articles */
 
-.card{
+ .card{
     display: flex;
     flex-direction: column;
     margin-top: 20px ;
@@ -465,6 +465,7 @@ padding: 0  9px;
     font-style: 10px;
 }
 
+
 /* fundo-parte-celular */
 .article-cel{
     margin-top: 20px;
@@ -519,4 +520,516 @@ padding: 0  9px;
         width: 150px;
 }
 
+
+/* posts */
+
+
+.posts{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.posts  p {
+    font-size: 10px;
+    margin-top: 20px;
+}
+.posts  i {
+    margin-top: 10px;
+    color: #0275db;
+}
+
+.card-post{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px ;
+    /* border: 1px solid gray; */
+    width: 20vw;
+    height: 60vh;
+}
+
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid gray; */
+   
+}
+
+.card-header-posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;  
+    height: 40vh;
+    width: 20vw;
+    background-color: yellow;
+}
+
+.card-header-posts3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    height: 40vh;
+    width: 20vw;
+    background-color: yellow;
+}
+
+.card-header-posts3 span{
+    padding: 10px;
+    margin-top: 15px;
+    text-align-last: center;
+    color: #fff;
+    background-color:  #0275db;
+}
+
+.card-header-posts3 .left-content-video{
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.card-header-posts3 .left-content-video i {
+    background-color: #fff;
+    padding: 10px;
+    color:#0275db;
+}
+
+
+.card-header-posts span{
+    padding: 10px;
+    margin-top: 15px;
+    text-align-last: center;
+    color: #fff;
+    background-color:  #0275db;
+}
+
+.more-content{
+    display: flex;
+   align-items: center;
+   margin-left: 190px;
+   margin-bottom: 5px ;
+}
+
+.more-content .left-content{
+    background-color: #fff;
+    color: gray;
+    margin-right: 5px;
+}
+
+.more-content .left-content i {
+    padding: 0 10px
+}
+
+
+.more-content .right-content{
+    background-color:  #0275db;
+    color: #fff;
+}
+
+.more-content .right-content i {
+    padding: 0 10px
+}
+
+.more-content-video{
+    display: flex;
+    align-items: center;
+   
+    margin-top: 0;
+}
+
+
+
+.fundo1-posts{
+    background-image: url('../img/paisagem.jpg'); 
+    background-size: cover;
+
+}
+
+.card-body-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.card-body-post h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-body-post h4 {
+    font-size: 12px;
+    color: gray;
+}
+.card-body-post p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: gray;
+}
+
+.card-footer-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    background-color: lightgray;
+    height: 10vh;
+    
+}
+.left-posts-like{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.left-posts-like .heart{
+    background-color: #fff;
+    color: gray;
+    text-align:  center;
+    
+}
+.left-posts-like .heart i{
+    padding: 5px
+    
+}
+
+.left-posts-like .comments{
+    background-color: #fff;
+    color: gray;
+    text-align:  center;
+    margin-left: 3px;
+    
+}
+
+
+
+.left-posts-like .comments i{
+    padding: 5px
+}
+
+
+.more-posts-like{
+    margin-right: 20px;
+}
+.more-posts-like .more{
+    background-color: #fff;
+    color: gray;
+    text-align:  center;
+}
+
+.more-posts-like .more i {
+    padding: 0 5px;
+}
+.more-posts-like .moreBlue{
+    background-color: #0275db; ;
+    color: #fff;
+}
+.more-posts-like .moreBlue i{
+    padding: 0 5px;
+}
+
+/* project galery */
+
+.project-galery{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    background-color: #000;
+}
+.project-galery-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left:  80px;
+    margin-right: 20px;
+}
+
+.project-galery-left img{
+    height: 70vh;
+    width: 40vw;
+}
+
+.project-galery .project-galery-left .imgs-slider{
+    display: flex;
+    background-color: #000;
+}
+.project-galery .project-galery-left .imgs-slider img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.project-galery-rigth{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.project-galery-rigth p{
+    margin-top: 20px;
+    padding-right: 50px;
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+}
+
+.project-galery .box-gallery-up {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 10px ;
+    font-size: 16px;
+}
+
+.project-galery .box-gallery-down {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+/* the team */
+
+.team-workes{
+    background-color: lightgray;
+    margin-top: 0;
+}   
+
+.cards-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px; 
+}
+.team{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.team  p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.team  i {
+    margin-top: 10px;
+    color: #0275db;
+}
+
+.team1{
+    background-image: url('../img/team1.jpg');
+    background-size: cover;
+}
+.team2{
+    background-image: url('../img/team2.jpg');
+    background-size: cover;
+}
+.team3{
+    background-image: url('../img/team3.jpg');
+    background-size: cover;
+}
+.team4{
+    background-image: url('../img/team4.jpg');
+    background-size: cover;
+}
+
+
+.card-header-team{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 45vh;
+    width: 15vw;
+}
+.card-header-team .team-name{
+    background-color:#0275db;
+    width: 100%;    
+}
+.card-header-team .team-name h3{
+    font-size: 16px;
+    color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+.card-header-team .social-bar{
+    padding: 5px;
+    margin-left:30px;
+    width: 50%;
+}
+
+.card-header-team .social-bar ul{
+    display: flex;
+    padding: 5px
+}
+
+.card-header-team .social-bar ul li{
+    list-style: none;
+    padding: 5px
+}
+.card-header-team .social-bar ul li i{
+    background-color:#fff ;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    color: #0275db;
+}
+
+/* prices */
+
+.table-prices{
+        margin-top: 40px;
+}   
+
+.table{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.table  p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.table i {
+    margin-top: 10px;
+    color: #0275db;
+}
+
+
+.cards-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px; 
+}
+ .cards-price .cards-prices{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 60vh;
+    width: 20vw;
+}
+
+
+.card-header-prices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background-color: lightgray
+}
+.card-header-prices .text-price1{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.card-header-prices .text-price2{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.card-header-prices .text-price3{
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.card-header-prices span{
+     font-size: 20px;
+}
+.card-header-prices i{
+    font-size: 20px;
+}
+
+.name-price {
+    background-color: #0275db ;
+    width:60%;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -4%;
+    color: #fff;
+}
+
+.card-body-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 20vw;
+    /* height: 20vh; */
+}
+
+
+.card-body-price ul{
+    
+    list-style: none;
+}
+
+.card-body-price ul li {
+    margin-bottom: 20px;
+    color: gray;
+}
+.footer-price{
+    background-color: lightgray;
+    width: 90%;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.footer-price h3{
+    color: gray;
+    padding:2px
+}
+
+/* banner */
+.banner{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 20px;
+}
+
+.banner-information{
+    background: rgb(0,0,1);
+    background: linear-gradient(15deg, rgba(0,0,1,1) 5%, rgba(0,0,1,0.989233193277311) 35%, rgba(9,9,25,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.banner-information .checked{
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.banner-information .checked i{
+    color: blue;
+    font-size: 48px;
+}
 
