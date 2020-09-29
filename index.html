@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" > -->
-
-
-
+   
       <!-- arquivos owl -->
       <link rel="stylesheet" href="./css/owl/owl.carousel.min.css">
       <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
@@ -15,6 +12,7 @@
 
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
     <title>Huge</title>
 </head>
 <body>
@@ -22,49 +20,58 @@
     
     <nav>
         <ul class="brand">
-            <li><a href="#">HUGE</a></li>
+            <li id="huge"><a href="#">HUGE</a></li>
         </ul>
 
         <ul class="menu"> 
-            <li ><a href="#" id="home" >HOME</a></li>
+            <li class="active" ><a href="#" id="home" >HOME</a></li>
             <li><a href="#">PAGES</a></li>
-            <li><a href="#">FEATURES</a></li>
-            <li><a href="#">PORTIFOLIO</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#recentworks">PORTIFOLIO</a></li>
             <li><a href="#">BLOG</a></li>
             <li><a href="#">SHOP</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
 
         <ul class="search">
             <li><a href="#"><i class="fa fa-search"></i></a></li>
             <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-            <li><a href="#">FLAG</a></li>
+            
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn language"><img src="./img/usaflag.png" alt=""> <i class="fa fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                  <a href="#"><img src="./img/brazilflag.png" alt=""></a>
+                  <a href="#"> <img src="./img/spain.png" alt=""> </a>
+               
+                </div>
+              </li>
         </ul>
+
     </nav>
 
 
     <div class="header-board">
-            <h2>BE CREATIVE</h2>
-            <p>HUGE Website Builder is a big library of pre-designed web elements<br>
+            <h2 class="fadeout">BE CREATIVE</h2>
+            <p class="fadeout">HUGE Website Builder is a big library of pre-designed web elements<br>
             which help you create website in few minutes</p>
             <div class="group-button">
-                <button class="see-more">SEE MORE</button>
-                <button class="purchase">PURCHASE</button>
+                <button class="see-more fadeout">SEE MORE</button>
+                <button class="purchase fadeout">PURCHASE</button>
             </div>        
     </div>
 </header>
 
-<div class="header-about">
-        <div class="about">
-            <div class="square">
+<div  id="features" class="header-about">
+        <div class="about move-to-rigth">
+            <div class="square ">
                 <div class="circle"><i class="fa fa-paperclip"></i></div>
             </div>
             <h3>About the Huge</h3>
             <p>Class aptent tacti socisutn tora <br>torquent corem ipsum</p>
         </div>
 
-        <div class="about">
-            <div class="squareblack">
+        <div class="about move-to-rigth">
+            <div class="squareblack ">
                 <div class="circle"><i class="fa fa-magic black-color" style="color: black;"></i></div>
             </div>
             <h3>Amazing Updates</h3>
@@ -72,7 +79,7 @@
         </div>
 
 
-        <div class="about">
+        <div class="about move-to-left">
             <div class="square">
                 <div class="circle"><i class="fa fa-key"></i></div>
             </div>
@@ -80,7 +87,7 @@
             <p>Class aptent tacti socisutn tora <br>torquent corem ipsum</p>
         </div>
 
-        <div class="about">
+        <div class="about move-to-left" >
             <div class="square">
                 <div class="circle"><i class="fa fa-lock"></i></div>
             </div>
@@ -91,18 +98,35 @@
 
 
 <main>
-    <div class="recent-work">
+<div  id="recentworks" class="recent-work">
         <p>DISCORVER</p>
         <h3>RECENT WORK</h3>
         <i class="fa fa-star"></i>
     </div>
 
     <div class="recent-images">
-        <img src="./img/bailarina.jpg" alt="">
-        <img src="./img/empresario.jpg" alt="">
-        <img src="./img/garotapunk.jpg" alt="">
-        <img src="./img/skate.jpg" alt="">
+        <img id="myImg" src="./img/bailarina.jpg" alt="Bailarina">
+        <img id="myImg2" src="./img/empresario.jpg" alt="Empresario">
+        <img id="myImg3" src="./img/garotapunk.jpg" alt="Garota Punk">
+        <img id="myImg4" src="./img/fundonews3.jpg" alt="Skatista">
     </div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+  
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+    <img class="modal-content" id="img02">
+    <img class="modal-content" id="img03">
+    <img class="modal-content" id="img04">
+  
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
 </main>
 
 <article>
@@ -247,7 +271,7 @@
        
         <div class="marginleft">
             <div class=" card-post border">
-                <div class="card-header-posts fundo1-posts">
+                <div class="card-header-posts fundo2-posts">
                     <span>29<br>AUG</span> 
                     <div class="more-content">
                         <div class="left-content"><i class="fa fa-arrow-left"></i></div>
@@ -275,7 +299,7 @@
 
         <div class="marginleft">
             <div class=" card-post border">
-                <div class="card-header-posts3 fundo1-posts">
+                <div class="card-header-posts3 fundo3-posts">
                     <span>29<br>AUG</span> 
                     <div class="more-content-video">
                         <div class="left-content-video"><i class="fa fa-play"></i></div>
@@ -303,20 +327,24 @@
     </div>
 </article>
 
-
+<!-- <img id="myImgSlider1" src="./img/imagem_perfil.png" alt="Bailarina"> -->
 
 <article>
 <div class="project-galery">
     <div class="project-galery-left">
-        <img src="./img/modelo.jpg" alt="">
+        <img id="imgSlider" src="./img/team2.jpg" alt="">
         <div class="imgs-slider">
-            <img src="./img/imagem_perfil.png" alt="">
-            <img src="./img/imagem_perfil.png" alt="">
-            <img src="./img/imagem_perfil.png" alt="">
-            <img src="./img/imagem_perfil.png" alt="">
-            <img src="./img/imagem_perfil.png" alt="">
-            <img src="./img/imagem_perfil.png" alt="">
-            <img src="./img/imagem_perfil.png" alt="">
+        <div class="tim" id="myImgSlider1"> </div> 
+        <div class="tim2" id="myImgSlider2"> </div> 
+        
+        <div class="tim3" id="myImgSlider3"> </div> 
+        <div class="tim4" id="myImgSlider4"> </div> 
+        <div class="tim5" id="myImgSlider5"> </div> 
+        <div class="tim6" id="myImgSlider6"> </div> 
+        <div class="tim7" id="myImgSlider7"> </div> 
+            
+            
+           
         </div>
     </div>
     <div class="project-galery-rigth">
@@ -324,25 +352,25 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex reiciendis quod distinctio suscipit, laborum debitis dolores voluptatum saepe fuga nobis doloremque possimus quia, obcaecati molestias minima itaque numquam cumque repellat veritatis similique? Pariatur, dolorem et? Nam accusamus sit, perspiciatis cumque velit incidunt, ipsam dignissimos reprehenderit illo commodi iusto quod dolores laborum qui. Tenetur tempore esse voluptate asperiores, corporis architecto ut eaque id nemo. Culpa, similique laborum asperiores corporis veniam fuga? Animi quo dolore hic quisquam, adipisci doloremque. Optio, ratione consequuntur!.</p>
         <div class="box-gallery-up">
                 <div class="box1">
-                    <i class="fa  fa-power-off" style="color:blue"></i><span>Portifolio</span>
+                    <i class="fa  fa-power-off" style="color: #0275db;"></i><span>  Portifolio</span>
                     <p>class aptendet socious  equente  conljjhnos per  inceptos humanis</p>
                 </div>
                 <div class="box2">
-                    <i class="fa fa-edit" style="color:blue"></i> <span>Google Fonts</span>
+                    <i class="fa fa-edit" style="color:#0275db;"></i> <span> Google Fonts</span>
                     <p>class aptendet socious  equente  conljjhnos per  inceptos humanis</p>
                 </div>
         </div>
         <div class="box-gallery-down">
             <div class="box1">
-                <i class="fa fa-location-arrow" style="color:blue"></i> <span>Creative Ideias</span>
+                <i class="fa fa-location-arrow" style="color: #0275db;"></i> <span> Creative Ideias</span>
                 <p>class aptendet socious  equente  conljjhnos per  inceptos humanis</p>
             </div>
             <div class="box2">
-                <i class="fa fa-bell" style="color:blue"></i> <span>Ajax Transistions</span>
+                <i class="fa fa-bell" style="color: #0275db;"></i> <span> Ajax Transistions</span>
                 <p>class aptendet socious  equente  conljjhnos per  inceptos humanis</p>
             </div>
         </div>
-        <button class="see-more">PURCHASE</button>
+        <button class="see-moree">PURCHASE</button>
 
     </div>
 </div>
@@ -359,23 +387,21 @@
     </div>
 
 
-    <div class="cards-team">
+    <div class="cards-team fadeout">
         <div class="marginleft">
             <div class="border">
-                <div class="card-header-team team1 ">
+                <div class="card-header-team team3 ">
                     <span class="triangle-topleft"></span>
                     <div class="team-name"><h3>David Martin - founder</h3></div>
                     <div class="social-bar">
                         <ul>
-                            <li><i class="fa fa-twitter"></i></li>
+                            <li><i class="fa fa-twitter active"></i></li>
                             <li><i class="fa fa-facebook-f"></i></li>
                             <li><i class="fa fa-google-plus-square"></i></li>
                             <li><i class="fa fa-linkedin"></i></li>
                         </ul>
                     </div>
-
                 </div>
-                
                 </div>
             </div>
 
@@ -383,11 +409,11 @@
                 <div class="border">
                     <div class="card-header-team team2 ">
                         <span class="triangle-topleft"></span>
-                        <div class="team-name"><h3>David Martin - founder</h3></div>
+                        <div class="team-name"><h3>Reena Scot - founder</h3></div>
                         <div class="social-bar">
                             <ul>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-facebook-f"></i></li>
+                                <li><i class="fa fa-twitter active"></i></li>
+                                <li><i class="fa fa-facebook-f active"></i></li>
                                 <li><i class="fa fa-google-plus-square"></i></li>
                                 <li><i class="fa fa-linkedin"></i></li>
                             </ul>
@@ -400,9 +426,9 @@
 
                 <div class="marginleft">
                     <div class="border">
-                        <div class="card-header-team team3 ">
+                        <div class="card-header-team team4 ">
                             <span class="triangle-topleft"></span>
-                            <div class="team-name "> <h3>David Martin - founder</h3></div>
+                            <div class="team-name "> <h3>Paul Smith - founder</h3></div>
                            
                             <div class="social-bar">
                                 <ul>
@@ -421,13 +447,13 @@
 
                     <div class="marginleft">
                         <div class="border">
-                            <div class="card-header-team team4 ">
+                            <div class="card-header-team team1 ">
                                 <span class="triangle-topleft"></span>
-                                <div class="team-name"><h3>David Martin - founder</h3></div>
+                                <div class="team-name"><h3>Jenifer White - founder</h3></div>
                                 <div class="social-bar">
                                     <ul>
-                                        <li><i class="fa fa-twitter"></i></li>
-                                        <li><i class="fa fa-facebook-f"></i></li>
+                                        <li><i class="fa fa-twitter active "></i></li>
+                                        <li><i class="fa fa-facebook-f "></i></li>
                                         <li><i class="fa fa-google-plus-square"></i></li>
                                         <li><i class="fa fa-linkedin"></i></li>
                                     </ul>
@@ -535,22 +561,22 @@
 
 <article>
     <div class="banner-information">
-        <div class="checked">
+        <div class="checked move-to-rigth">
             <i class="fa fa-check"></i>
             <p>Projects Completed</p>
             <h2>2540</h2>
         </div>
-        <div class="coffe">
+        <div class="coffe move-to-rigth">
             <i class="fa fa-coffee"></i>
             <p>Coffeers Consumed</p>
             <h2>7325</h2>
         </div>
-        <div class="heart">
+        <div class="heart move-to-left">
             <i class="fa fa-heart"></i>
             <p>Happy  Custumers</p>
             <h2>1924</h2>
         </div>
-        <div class="engine">
+        <div class="engine move-to-left">
             <i class="fa fa-cog"></i>
             <p>Lines of Code</p>
             <h2>4275</h2>
@@ -561,7 +587,7 @@
 
 <article>
 
-    <div class="table-conect">
+    <div id="contact" class="table-conect">
        <div class="conect">
            <p>CONNECT</p>
            <h3>GET SOCIAL</h3>
@@ -663,7 +689,7 @@
                </div>
         </div>
 
-        <div class="back"><i class="fa fa-angle-double-up"></i></div>
+        <div class="back"><a href="#huge"><i class="fa fa-angle-double-up"></i></a></div>
     <div class="footer-right">
         <h3>Recent Posts</h3>    
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dolorum ducimus. Possimus impedit repellendus suscipit eos.</p>
@@ -704,5 +730,7 @@
 <script src="./js/owl/jquery.min.js"></script>
 <script src="./js/owl/owl.carousel.min.js"></script>
 <script src="./js/owl/main.js"></script>
+<script src="./js/modal.js"></script>
+<script src="./js/carouselImg.js"></script>
 </body>
 </html>
