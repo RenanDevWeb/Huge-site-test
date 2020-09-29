@@ -1,53 +1,56 @@
-.fadeout{
-    animation: fadeout 5s linear ;
+.fadeout {
+    animation: fadeout 5s linear;
 }
 
-.move{
+.move {
     animation: move 5s linear;
 }
 
-.move-to-rigth{
-    animation: moveToRigth 5s linear ;
+.move-to-rigth {
+    animation: moveToRigth 5s linear;
 }
 
-.move-to-left{
-    animation: moveToleft 5s linear ;
+.move-to-left {
+    animation: moveToleft 5s linear;
 }
-@keyframes fadeout{
-    from{
+
+@keyframes fadeout {
+    from {
         opacity: 0;
     }
-    to{
+    to {
         opacity: 1;
     }
 }
 
-@keyframes move{
-    from{
+@keyframes move {
+    from {
         opacity: 0;
         transform: translateX(-35%)
     }
-    to{
+    to {
         opacity: 1;
         transform: translateX(0%);
     }
 }
-@keyframes moveToRigth{
-    from{
+
+@keyframes moveToRigth {
+    from {
         opacity: 0;
         transform: translateX(-800%)
     }
-    to{
+    to {
         opacity: 1;
         transform: translateX(0%);
     }
 }
-@keyframes moveToleft{
-    from{
+
+@keyframes moveToleft {
+    from {
         opacity: 0;
         transform: translateX(200%)
     }
-    to{
+    to {
         opacity: 1;
         transform: translateX(0%);
     }
