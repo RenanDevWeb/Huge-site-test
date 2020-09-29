@@ -2,9 +2,7 @@
 
 ### Como usar
 
-Para rodar o site, basta clonar esse repositorio  [huge Site](http://https://github.com/RenanDevWeb/Huge-site-test "huge Site")
-http://https://github.com/RenanDevWeb/Huge-site-test
-para sua maquina e executar o arquivo **index.html**
+Para rodar o site, basta clonar esse repositorio para sua maquina e executar o arquivo **index.html**
 ou 
 fazer o download da pasta descompacta-la e executar o arquivo** index.html**
 
