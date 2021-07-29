@@ -10,7 +10,7 @@ download the folder, unzip it and run the file** index.html**
 
 git comand "git clone https://github.com/RenanDevWeb/Huge-site-test.git"
 
-### technology used 
+### Technology used 
 
 in this project was used 
 
@@ -20,7 +20,7 @@ in this project was used
 
 Can be visualized in [Site](https://renandevweb.github.io/Huge-site-test/)
 
-### plugins used
+### Plugins used
 
 [Owl Carrousel](http://https://owlcarousel2.github.io/OwlCarousel2/ "Owl Carrousel") 
 [github Owl Carrousel](http://https://github.com/OwlCarousel2/OwlCarousel2 "github Owl Carrousel")
@@ -30,9 +30,9 @@ Can be visualized in [Site](https://renandevweb.github.io/Huge-site-test/)
 para icones
 
 
-##Disclaimer
+#### Disclaimer
 
 This site is not in responsive format, just for desktops
 
-####All images used in this project are authored by their editors. 
+All images used in this project are authored by their editors. 
 
