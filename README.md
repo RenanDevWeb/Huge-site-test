@@ -1,33 +1,38 @@
-# **HUGE SITE**
+# HUGE SITE
 
-### Como usar
+This layout was created to study functionality on the front-end. 
 
-Para rodar o site, basta clonar esse repositorio para sua maquina e executar o arquivo **index.html**
-ou 
-fazer o download da pasta descompacta-la e executar o arquivo** index.html**
+### How to Use 
 
+To run the site, just clone this repository to your machine and run the **index.html** file
+or
+download the folder, unzip it and run the file** index.html** 
 
-### **Tecnologias utilizadas**
+git comand "git clone https://github.com/RenanDevWeb/Huge-site-test.git"
 
-nesse projeto foram utilizadas as tecnologias abaixo
+### technology used 
+
+in this project was used 
 
 - html5
 - css
 - js
 
-### plugins
-foram utilizados os plugins 
+Can be visualized in [Site](https://renandevweb.github.io/Huge-site-test/)
+
+### plugins used
 
 [Owl Carrousel](http://https://owlcarousel2.github.io/OwlCarousel2/ "Owl Carrousel") 
 [github Owl Carrousel](http://https://github.com/OwlCarousel2/OwlCarousel2 "github Owl Carrousel")
-para o parte do carrousel
 
 
 [Font Awesome](http://https://fontawesome.com "Font Awesome")
 para icones
 
 
-O site não se encontra em formato responsivo, uso somente em desktops
+##Disclaimer
 
-##### Obs:  Todas as imagens utilizadas nesse projeto são de autoria de seus editores.
+This site is not in responsive format, just for desktops
+
+####All images used in this project are authored by their editors. 
 
